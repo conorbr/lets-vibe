@@ -1,6 +1,6 @@
 {
   "name": "lets-vibe",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CLI tool that scaffolds a professional documentation structure for new projects.",
   "bin": {
     "lets-vibe": "bin/lets-vibe.js"

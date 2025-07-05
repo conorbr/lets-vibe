@@ -25,3 +25,18 @@ All notable changes to this project will be documented in this file.
 
 - README now includes best-practice usage guidelines.
 - `.cursor.json` now references `v-docs` via `include` field.
+
+## [0.3.0] - 2025-07-05
+
+### Added
+
+- Prompt for project name when scaffolding into current directory (`.`).
+- New `--no-templates` flag (templates now copy by default).
+
+### Fixed
+
+- Placeholder substitution now only runs inside generated `v-docs/` folder.
+
+### Changed
+
+- `--with-templates` flag removed in favour of default behaviour.

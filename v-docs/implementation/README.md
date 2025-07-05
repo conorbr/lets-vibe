@@ -1,18 +1,39 @@
-# Implementation Notes
+# Implementation Workspace
 
-This directory houses implementation-stage documents for ..
+> Day-to-day build documentation for **Lets Vibe CLI** lives here. Update docs in the same PR as the code they describe.
 
-## Purpose
+---
 
-Track detailed plans, checklists, spike results, and other working docs that emerge **after** the high-level design has been approved.
+## 1. Traceability
 
-## Suggested Files
+| Artifact       | Location     | Purpose                            |
+| -------------- | ------------ | ---------------------------------- |
+| **EDRs**       | ../edr/      | Design deep-dives                  |
+| **ADRs**       | ../adr/      | Finalised decisions                |
+| **Roadmap**    | ./roadmap.md | Release timeline & sprint goals    |
+| **Module Map** | ./modules.md | Code ownership & directory purpose |
 
-- `task-breakdown.md` – granular list of tickets or PRs.
-- `data-migrations.md` – notes on schema / data migrations.
-- `benchmark-results.md` – performance testing outputs.
+---
 
-Feel free to create additional markdown files as needed.
+## 2. Sub-Docs Index
+
+| File                   | When to Update          | Owner       |
+| ---------------------- | ----------------------- | ----------- |
+| `roadmap.md`           | End of every sprint     | PM / TL     |
+| `modules.md`           | New package / dir added | Tech Lead   |
+| `data_migrations.md`   | Any schema change       | DB owner    |
+| `benchmark-results.md` | After perf tests        | Perf champ  |
+| `tasks/`               | Sprint planning         | Sprint lead |
+
+---
+
+## 3. AI Hints
+
+```jsonc
+{
+  "ai_hint": ["module-ownership", "roadmap", "migrations", "benchmarks"]
+}
+```
 
 ---
 

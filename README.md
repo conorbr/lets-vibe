@@ -17,7 +17,7 @@ lets-vibe <project-name>
 
 - Generates a `v-docs/` directory with ready-to-edit markdown templates.
 - Cross-platform: macOS, Linux, Windows.
-- Helpful flags: `--dry-run`, `--overwrite`, `--yes`, `--cursor`.
+- Helpful flags: `--dry-run`, `--overwrite`, `--yes`, `--cursor`, `--no-templates`.
 
 ## Getting the Most Out of lets-vibe
 
@@ -42,3 +42,11 @@ lets-vibe <project-name>
 ## License
 
 MIT © Conor Breen
+
+```bash
+# Generate docs **with** templates (default)
+npx lets-vibe my-app
+
+# Skip copying templates
+npx lets-vibe my-app --no-templates
+```
