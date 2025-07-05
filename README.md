@@ -19,6 +19,26 @@ lets-vibe <project-name>
 - Cross-platform: macOS, Linux, Windows.
 - Helpful flags: `--dry-run`, `--overwrite`, `--yes`, `--cursor`.
 
+## Getting the Most Out of lets-vibe
+
+1. **Start early** – run the CLI at project inception so the Idea & Architecture docs guide discussions from day one.
+2. **Use flags together** – generate a project and pre-create Cursor context in one go:
+
+   ```bash
+   npx lets-vibe my-app --cursor
+   ```
+
+3. **Dry-run before committing** – preview changes when adding docs to an existing repo:
+
+   ```bash
+   lets-vibe . --dry-run
+   ```
+
+4. **Iterate on templates, don't ignore them** – replace every `{{placeholder}}` in the generated markdown; unfinished TODOs are a signal to revisit requirements.
+5. **Link docs in pull requests** – when a PR implements an EDR decision, reference the EDR/ADR IDs so reviewers have context.
+6. **Keep `modules.md` & `roadmap.md` fresh** – update ownership and timelines in the same PR that changes code or backlog.
+7. **CI tip** – add a workflow step that fails if `grep -R "{{.*}}" v-docs | wc -l` returns non-zero, ensuring placeholders get filled.
+
 ## License
 
 MIT © Conor Breen
