@@ -1,12 +1,20 @@
 {
   "name": "lets-vibe",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "CLI tool that scaffolds a professional documentation structure for new projects.",
   "bin": {
     "lets-vibe": "bin/lets-vibe.js"
   },
   "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/conorbr/lets-vibe#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conorbr/lets-vibe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/conorbr/lets-vibe/issues"
+  },
   "engines": {
     "node": ">=18"
   },
