@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Production
+/dist
+
+# Env files
+.env
+
+# Mac OS
+.DS_Store 
