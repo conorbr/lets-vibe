@@ -1,5 +1,9 @@
 # lets-vibe
 
+<p align="center">
+  <img src="https://i.imgflip.com/9zfy0f.gif" alt="OK Let's Vibe" width="600"/>
+</p>
+
 A CLI tool that scaffolds a clear, professional documentation structure for new software projects.
 
 ## Installation
